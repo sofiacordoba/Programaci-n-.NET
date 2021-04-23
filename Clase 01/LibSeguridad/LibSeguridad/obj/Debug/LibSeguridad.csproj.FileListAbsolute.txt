@@ -1,0 +1,9 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\bin\Debug\LibSeguridad.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\bin\Debug\LibSeguridad.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\obj\Debug\LibSeguridad.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\obj\Debug\LibSeguridad.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\obj\Debug\LibSeguridad.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\obj\Debug\LibSeguridad.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\bin\Debug\BO.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\bin\Debug\BO.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\LibSeguridad\obj\Debug\LibSeguridad.csproj.CopyComplete

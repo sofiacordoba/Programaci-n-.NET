@@ -1,0 +1,9 @@
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\bin\Debug\Negocio.dll
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\bin\Debug\BO.dll
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\bin\Debug\BO.pdb
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\obj\Debug\Negocio.dll
+C:\Users\Sofia\source\repos\SlnSistemaVentas\Negocio\obj\Debug\Negocio.pdb

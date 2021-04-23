@@ -1,0 +1,15 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.Form1.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.Properties.Resources.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.csproj.GenerateResource.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\bin\Debug\SistemaFacturación.exe.config
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\bin\Debug\SistemaFacturación.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\bin\Debug\SistemaFacturación.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\bin\Debug\Entidades.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\bin\Debug\Negocio.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\bin\Debug\Entidades.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\bin\Debug\Negocio.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\SistemaFacturación\obj\Debug\SistemaFacturación.csproj.CopyComplete

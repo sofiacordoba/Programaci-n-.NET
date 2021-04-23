@@ -1,0 +1,6 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\BO\bin\Debug\BO.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\BO\bin\Debug\BO.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\BO\obj\Debug\BO.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\BO\obj\Debug\BO.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\BO\obj\Debug\BO.pdb

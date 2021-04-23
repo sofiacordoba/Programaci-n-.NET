@@ -1,0 +1,6 @@
+C:\Users\Sofia\source\repos\SlnSistemaVentas\BO\bin\Debug\BO.dll
+C:\Users\Sofia\source\repos\SlnSistemaVentas\BO\bin\Debug\BO.pdb
+C:\Users\Sofia\source\repos\SlnSistemaVentas\BO\obj\Debug\BO.csprojAssemblyReference.cache
+C:\Users\Sofia\source\repos\SlnSistemaVentas\BO\obj\Debug\BO.csproj.CoreCompileInputs.cache
+C:\Users\Sofia\source\repos\SlnSistemaVentas\BO\obj\Debug\BO.dll
+C:\Users\Sofia\source\repos\SlnSistemaVentas\BO\obj\Debug\BO.pdb

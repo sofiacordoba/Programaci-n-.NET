@@ -1,0 +1,7 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\SLNDEMODATOS\LibDatosProducto\bin\Debug\LibDatosProducto.dll.config
+D:\Escritorio\Accademy .NET Sofi\C# .NET\SLNDEMODATOS\LibDatosProducto\bin\Debug\LibDatosProducto.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\SLNDEMODATOS\LibDatosProducto\bin\Debug\LibDatosProducto.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\SLNDEMODATOS\LibDatosProducto\obj\Debug\LibDatosProducto.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\SLNDEMODATOS\LibDatosProducto\obj\Debug\LibDatosProducto.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\SLNDEMODATOS\LibDatosProducto\obj\Debug\LibDatosProducto.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\SLNDEMODATOS\LibDatosProducto\obj\Debug\LibDatosProducto.pdb

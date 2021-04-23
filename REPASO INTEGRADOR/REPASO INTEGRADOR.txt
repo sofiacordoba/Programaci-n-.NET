@@ -1,0 +1,236 @@
+1) Creo la Solución en VS:
+        Crear proyecto --> Aplicación de Windows Forms(.NET Framework).
+	nombre: SistemaFacturación
+
+a) sobre la solución, agrego un Proyecto de librería (Biblioteca de clases.NET Framework): Entidades (creo carpeta Models)
+-Creo el modelo Cliente  --> le agrego sus atributos
+ public class Cliente
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+    }
+}
+
+b) sobre la solución, agrego un Proyecto de librería (Biblioteca de clases.NET Framework): Negocio. (creo carpeta Admin)
+creo la clase AdminDB:
+    internal static class AdminDB
+    {
+
+        internal static SqlConnection conectarDB()
+        {
+            //configurar el objeto de conexion
+            string cadena = "Data Source=.;Initial Catalog=DBFACTURACION;Integrated Security=True";
+            SqlConnection conexion = new SqlConnection(cadena);
+            conexion.Open();
+
+            return conexion;
+
+        }
+    }
+******IMPORTANTE: Agrego el using System.Data.SqlClient;
+
+
+
+2) creo la base de datos usando el script en una Query. 
+a) Para hacer las consultas en SQL para Agregar() y Listar() clientes:
+--> dbo.Cliente --> boton derecho, Script Table As--->
+  SELECT TO (para Listar() )     ----> New Query Editor Windows
+
+
+b) ordeno la Query en una sola línea
+c) verifico que funciona (la selecciono y ejecuto)
+d) copio la consulta...
+
+3) Voy a VS, en el Form1.cs (formulario de windows) agrego un BOTÓN:
+(Name): btnMostrarClientes
+(Text): Mostrar Clientes
+--> doble click en el botón, y programo:
+a) guardo la query en una variable consulta:
+	//preparando la consulta SQL
+	string consulta = "SELECT [Id],[Nombre],[Apellido],[FechaNacimiento] FROM [dbo].[Cliente]";
+
+-> AGREGO EL using System.Data.SqlClient; (arriba)
+
+b)           //configurar el objeto de conexion
+            string cadena = "";
+            SqlConnection conexion = new SqlConnection(cadena);
+
+-> para escribir la "cadena de conexion:
+en VS--> Ver --> Explorador de Servidores. 
+a la izquierda, Conexiones de datos (boton derecho, Agregar conexión)
+Origen de datos: Microsoft SQL Server (SqlClient)
+Nombre del servidor: .
+Seleccionar o escribir el nombre de la base de datos: DBFacturacion
+--> Probar conexión (verificar que se realizó correctamente)  . Aceptar.
+a la izquierda(en el nuevo objeto) boton derecho--> Propiedades --> Cadena de conexión, COPIO.
+----------->LO PEGO EN EL string de conexión.
+
+c)             //comando
+            SqlCommand comando = new SqlCommand(consulta, conexion);
+
+            //reader
+            conexion.Open();  // con esto administramos la conexión
+            SqlDataReader reader = comando.ExecuteReader();
+
+            //leer los datos
+            while (reader.Read())
+            {
+(*)		*****
+            }
+--> en el Form1.cs : creo un ListBox (para leer lo datos)
+(Name): ltsCliente
+
+(*) Vuelvo al while, y pongo:
+	    //leer los datos
+            while (reader.Read())
+            {
+                lstCliente.Items.Add(reader[1]+ " " + reader["Nombre"]);
+            }
+
+/*
+reader[1] : es el índice del lugar
+reader[Nombre] : va el nombre del lugar
+"SELECT [Id],[Nombre],[Apellido],[FechaNacimiento] FROM [dbo].[Cliente]" */
+	 0       1        2            3             
+---> cierro la consulta:
+
+            reader.Close();
+            conexion.Close();
+
+4) voy a la clase AdminCliente.
+a) using System.Data.SqlClient; y using Entidades.Models;
+**********IMPORTANTE: Agregar referencia en Negocio de Entidades!!!!!!!!
+b)
+	public static List <Cliente> Listar() 
+	{
+	List<Cliente> lista = new List<Cliente>();  // digo que voy a llenar una lista
+	copio y pego lo que hay en form1.cs (dentro del metodo boton)
+	}
+
+--> dentro del while(reader.Read())
+            while (reader.Read())  // debo llenar una lista
+            {
+                lista.Add(
+                    new Cliente()
+                    {
+                        Id = (int)reader["Id"],
+                        Nombre = reader["Nombre"].ToString(),
+                        Apellido = reader["Apellido"].ToString(),
+                        FechaNacimiento = (DateTime)reader["FechaNacimiento"]
+                    });
+                    
+            }
+            reader.Close();
+            conexion.Close();
+    ---->   return lista;
+
+
+5) Agrego un DataGridView al form1.cs
+(Name): gridCliente
+6) Agrego un Boton (para llenar la grid)
+(Name): btnTraerTodosClientes
+(text): Traer todos los clientes
+
+---> doble click en el boton. Configuro:
+*******IMPORTANTE: Agregar en SistemaFacturacion(formularios) REFERENCIA de Negocio.Admin y ENTIDADES.Models
+agrego el using Negocio.Admin; en el Forml1.cs
+
+	private void btnTraerTodosClientes_Click(object sender, EventArgs e)
+        {
+            gridCliente.DataSource = AdminCliente.Listar();
+        }
+
+
+7)  en AdminCliente, Arreglo el metodo conexion:
+a) Borro el:
+           /* //configurar el objeto de conexion
+            string cadena = "Data Source=.;Initial Catalog=DBFACTURACION;Integrated Security=True";
+            SqlConnection conexion = new SqlConnection(cadena); */
+
+
+b) Modifico el :					(agrego AdminDB. ----() )
+	    //comando        
+            SqlCommand comando = new SqlCommand(consulta, AdminDB.conexion());
+
+************IMPORTANTE: Agregar using Negocio.Admin; en AdminCliente( donde esta el adminDB de conexion)
+
+c) En:
+		
+            //reader
+            conexion.Open();  
+            SqlDataReader reader = comando.ExecuteReader();
+
+Borro el:             conexion.Open();  
+Y ME QUEDA:
+            //reader
+            SqlDataReader reader = comando.ExecuteReader();
+
+d) al final, modifico el cierre de la conexion:
+            AdminDB.conectarDB().Close();       -->(le agrego el AdminDB y los () a conexion)
+
+
+
+8) Creo el metodo Agregar() en AdminCliente:
+
+a) genero la query en sql: INSERT TO (para Agregar() )	----> New Query Editor Windows
+b) ordeno la Query en una sola línea:
+	INSERT INTO [dbo].[Cliente]([Id],[Nombre],[Apellido],[FechaNacimiento]) 
+	VALUES (@id,@nombre,@apellido,@fechanacimiento)
+
+c) verifico que funciona (la selecciono y ejecuto)
+d) copio la consulta...
+
+---> en AdminCliente : metodo Agregar()
+        public static int Agregar(Cliente cliente) // devuelve cantidad de filas afectadas(int)
+        {
+            //query insert  (la preparo en sql)
+            string consulta = "INSERT INTO [dbo].[Cliente]([Id],[Nombre],[Apellido]," +
+                             "[FechaNacimiento]) VALUES (@id,@nombre,@apellido,@fechanacimiento)";
+
+            //sqlcommand
+            SqlCommand command = new SqlCommand(consulta, AdminDB.conectarDB());
+
+            //parametros
+            command.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = cliente.Id;
+            command.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar,50).Value = cliente.Nombre;
+            command.Parameters.Add("@apellido", System.Data.SqlDbType.VarChar,50).Value = cliente.Apellido;
+            command.Parameters.Add("@fechanacimiento", System.Data.SqlDbType.Date).Value = cliente.FechaNacimiento;
+
+            //ejecutar el comando para enviar los datos a DB
+            int filasAfectadas = command.ExecuteNonQuery();
+            AdminDB.conectarDB().Close();
+            return filasAfectadas;
+        }
+
+***COMPILO
+9) voy al Form1.cs
+a) agrego un boton de prueba para insertar un cliente:
+(Name): btnInsertarCliente
+(Text): Insertar Cliente
+-----------> doble click en el boton, programo: 
+********IMPORTANTE: Me aseguro de tener el using de las Entidades.Models;
+
+        private void btnTraerTodosClientes_Click(object sender, EventArgs e)
+        {
+            gridCliente.DataSource = AdminCliente.Listar();
+        }
+
+
+      //aca puedo crear un metodo MostrarClientes() para traer los datos de grilla, y ser llamado por btnTraerClientes_click
+
+
+        private void btnInsertarCliente_Click(object sender, EventArgs e)
+        {
+            Cliente nuevo = new Cliente()
+            {
+                Id = 29,
+                Nombre = "Maria",
+                Apellido = "Gonzalez",
+                FechaNacimiento = new DateTime(1995,10,05)
+            };
+            int filas = AdminCliente.Agregar(nuevo);
+
+            gridCliente.DataSource = AdminCliente.Listar();
+        }

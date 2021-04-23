@@ -1,0 +1,10 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\bin\Debug\WindowsDemoPOO.exe.config
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\bin\Debug\WindowsDemoPOO.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\bin\Debug\WindowsDemoPOO.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\obj\Debug\WindowsDemoPOO.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\obj\Debug\WindowsDemoPOO.Form1.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\obj\Debug\WindowsDemoPOO.Properties.Resources.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\obj\Debug\WindowsDemoPOO.csproj.GenerateResource.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\obj\Debug\WindowsDemoPOO.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\obj\Debug\WindowsDemoPOO.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsDemoPOO\obj\Debug\WindowsDemoPOO.pdb

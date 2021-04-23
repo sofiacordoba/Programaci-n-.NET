@@ -1,0 +1,10 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\bin\Debug\Windowsadonet.exe.config
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\bin\Debug\Windowsadonet.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\bin\Debug\Windowsadonet.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\obj\Debug\Windowsadonet.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\obj\Debug\Windowsadonet.Form1.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\obj\Debug\Windowsadonet.Properties.Resources.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\obj\Debug\Windowsadonet.csproj.GenerateResource.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\obj\Debug\Windowsadonet.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\obj\Debug\Windowsadonet.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 03 (Base de datos)\Windowsadonet\Windowsadonet\obj\Debug\Windowsadonet.pdb

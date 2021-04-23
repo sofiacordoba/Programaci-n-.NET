@@ -1,0 +1,15 @@
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\bin\Debug\AppWindowsVentas.exe.config
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\bin\Debug\AppWindowsVentas.exe
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\bin\Debug\AppWindowsVentas.pdb
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\bin\Debug\BO.dll
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\bin\Debug\Negocio.dll
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\bin\Debug\BO.pdb
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\bin\Debug\Negocio.pdb
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.csprojAssemblyReference.cache
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.Form1.resources
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.Properties.Resources.resources
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.csproj.GenerateResource.cache
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.csproj.CoreCompileInputs.cache
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.csproj.CopyComplete
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.exe
+C:\Users\Sofia\source\repos\SlnSistemaVentas\AppWindowsVentas\obj\Debug\AppWindowsVentas.pdb

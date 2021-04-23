@@ -1,0 +1,15 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\bin\Debug\WindowsApp.exe.config
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\bin\Debug\WindowsApp.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\bin\Debug\WindowsApp.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\bin\Debug\LibSeguridad.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\bin\Debug\LibSeguridad.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.csproj.CopyComplete
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.exe
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\obj\Debug\WindowsApp.Form1.resources
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\bin\Debug\BO.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\Clase 01\LibSeguridad\WindowsApp\bin\Debug\BO.pdb

@@ -1,0 +1,9 @@
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\bin\Debug\Negocio.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\bin\Debug\Negocio.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\bin\Debug\Entidades.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\bin\Debug\Entidades.pdb
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\obj\Debug\Negocio.dll
+D:\Escritorio\Accademy .NET Sofi\C# .NET\REPASO INTEGRADOR\SistemaFacturación\Negocio\obj\Debug\Negocio.pdb

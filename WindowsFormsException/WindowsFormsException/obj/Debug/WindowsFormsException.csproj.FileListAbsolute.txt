@@ -1,0 +1,10 @@
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\bin\Debug\WindowsFormsException.exe.config
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\bin\Debug\WindowsFormsException.exe
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\bin\Debug\WindowsFormsException.pdb
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\obj\Debug\WindowsFormsException.csprojAssemblyReference.cache
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\obj\Debug\WindowsFormsException.Form1.resources
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\obj\Debug\WindowsFormsException.Properties.Resources.resources
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\obj\Debug\WindowsFormsException.csproj.GenerateResource.cache
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\obj\Debug\WindowsFormsException.csproj.CoreCompileInputs.cache
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\obj\Debug\WindowsFormsException.exe
+C:\Users\Sofia\source\repos\WindowsFormsException\WindowsFormsException\obj\Debug\WindowsFormsException.pdb
